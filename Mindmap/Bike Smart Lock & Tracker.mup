@@ -1,0 +1,402 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Bike Smart Lock & Tracker",
+      "id": 1,
+      "ideas": {
+        "6": {
+          "title": "Challenges",
+          "id": 26,
+          "ideas": {
+            "1": {
+              "title": "Connectivity",
+              "id": 34
+            },
+            "2": {
+              "title": "Battery Usage",
+              "id": 36
+            },
+            "3": {
+              "title": "Anti-Theft Design",
+              "id": 37
+            }
+          }
+        },
+        "11": {
+          "title": "Future Ideas",
+          "id": 23,
+          "attr": {
+            "position": [
+              38,
+              133,
+              3
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "Navigation System",
+              "id": 30
+            },
+            "2": {
+              "title": "Cycled Distance Tracking",
+              "id": 32
+            }
+          }
+        },
+        "0.75": {
+          "title": "Technologies",
+          "id": 14,
+          "ideas": {
+            "1": {
+              "title": "Accelerometer",
+              "id": 16
+            },
+            "2": {
+              "title": "GPS",
+              "id": 17
+            },
+            "3": {
+              "title": "RFID",
+              "id": 18
+            },
+            "4": {
+              "title": "GSM",
+              "id": 19
+            },
+            "5": {
+              "title": "Cloud Environment",
+              "id": 27,
+              "ideas": {
+                "1": {
+                  "title": "User Space",
+                  "id": 39,
+                  "attr": {}
+                },
+                "2": {
+                  "title": "Database",
+                  "id": 40
+                }
+              },
+              "attr": {
+                "note": {
+                  "index": 15,
+                  "text": "Bluemix + Node RED"
+                }
+              }
+            },
+            "6": {
+              "title": "Android App",
+              "id": 29
+            }
+          }
+        },
+        "0.375": {
+          "title": "Functionalities",
+          "id": 5,
+          "ideas": {
+            "1": {
+              "title": "Real-Time Tracking",
+              "id": 6,
+              "ideas": {}
+            },
+            "5": {
+              "title": "RFID Lock",
+              "id": 10
+            },
+            "6": {
+              "title": "Theft Alarm",
+              "id": 11
+            },
+            "8": {
+              "title": "Social Features",
+              "id": 12,
+              "ideas": {
+                "1": {
+                  "title": "Friend Notifications",
+                  "id": 9,
+                  "attr": {
+                    "note": {
+                      "index": 7,
+                      "text": "In case of theft attempt, notify owner and also selected people"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Bike Sharing",
+                  "id": 8,
+                  "attr": {
+                    "note": {
+                      "index": 8,
+                      "text": "Lend bike to someone else"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Multiple Bike Tracking",
+                  "id": 7,
+                  "attr": {
+                    "note": {
+                      "index": 9,
+                      "text": "Register more than one bike belonging to you or a family member"
+                    }
+                  }
+                }
+              },
+              "attr": {}
+            }
+          }
+        }
+      },
+      "attr": {
+        "position": [
+          -76,
+          -27.800003051757812,
+          1
+        ],
+        "style": {
+          "background": "#33CCCC"
+        }
+      }
+    }
+  },
+  "title": "Bike Smart Lock & Tracker",
+  "attr": {
+    "theme": "topdownStandard"
+  },
+  "links": [],
+  "theme": {
+    "name": "MindMup Top Down Default",
+    "layout": {
+      "orientation": "top-down",
+      "spacing": {
+        "h": 20,
+        "v": 100
+      }
+    },
+    "node": [
+      {
+        "name": "default",
+        "cornerRadius": 10,
+        "backgroundColor": "#E0E0E0",
+        "border": {
+          "type": "surround",
+          "line": {
+            "color": "#707070",
+            "width": 1
+          }
+        },
+        "shadow": [
+          {
+            "color": "#070707",
+            "opacity": 0.4,
+            "offset": {
+              "width": 2,
+              "height": 2
+            },
+            "radius": 2
+          }
+        ],
+        "text": {
+          "margin": 5,
+          "alignment": "center",
+          "color": "#4F4F4F",
+          "lightColor": "#EEEEEE",
+          "darkColor": "#000000",
+          "font": {
+            "lineSpacing": 2.5,
+            "lineSpacingPx": 3.25,
+            "size": 9,
+            "sizePx": 12,
+            "weight": "bold"
+          }
+        },
+        "connections": {
+          "default": {
+            "h": "center",
+            "v": "base"
+          },
+          "from": {
+            "horizontal": {
+              "h": "center",
+              "v": "base"
+            }
+          },
+          "to": {
+            "h": "center",
+            "v": "top"
+          }
+        },
+        "decorations": {
+          "height": 20,
+          "edge": "top",
+          "overlap": true,
+          "position": "end"
+        }
+      },
+      {
+        "name": "level_1",
+        "backgroundColor": "#22AAE0"
+      },
+      {
+        "name": "activated",
+        "border": {
+          "type": "surround",
+          "line": {
+            "color": "#22AAE0",
+            "width": 3,
+            "style": "dotted"
+          }
+        }
+      },
+      {
+        "name": "level_1.activated",
+        "border": {
+          "type": "surround",
+          "line": {
+            "color": "#EEEEEE",
+            "width": 3,
+            "style": "dotted"
+          }
+        }
+      },
+      {
+        "name": "selected",
+        "shadow": [
+          {
+            "color": "#000000",
+            "opacity": 0.9,
+            "offset": {
+              "width": 2,
+              "height": 2
+            },
+            "radius": 2
+          }
+        ]
+      },
+      {
+        "name": "collapsed",
+        "shadow": [
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 1
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 3
+            },
+            "radius": 0
+          },
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 4
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 6
+            },
+            "radius": 0
+          },
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 7
+            },
+            "radius": 0
+          }
+        ]
+      },
+      {
+        "name": "collapsed.selected",
+        "shadow": [
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 1
+            },
+            "radius": 0
+          },
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 3
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 6
+            },
+            "radius": 0
+          },
+          {
+            "color": "#555555",
+            "offset": {
+              "width": 0,
+              "height": 7
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 10
+            },
+            "radius": 0
+          },
+          {
+            "color": "#333333",
+            "offset": {
+              "width": 0,
+              "height": 11
+            },
+            "radius": 0
+          }
+        ]
+      }
+    ],
+    "connector": {
+      "default": {
+        "type": "top-down-s-curve",
+        "label": {
+          "position": {
+            "aboveEnd": 15
+          },
+          "backgroundColor": "white",
+          "borderColor": "white",
+          "text": {
+            "color": "#4F4F4F",
+            "font": {
+              "size": 9,
+              "sizePx": 12,
+              "weight": "normal"
+            }
+          }
+        },
+        "line": {
+          "color": "#707070",
+          "width": 2
+        }
+      }
+    }
+  }
+}
